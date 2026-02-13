@@ -26,7 +26,7 @@ foreach ($students as $username => $password) {
 }
 
 if (!$foundUser) {
-    header("Location: logout.php");
+    header("Location: error.php");
     return;
 }
 ?>
